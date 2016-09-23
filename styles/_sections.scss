@@ -1,0 +1,63 @@
+.marquee {
+	background: $firstcolour;
+	width: 100vw;
+	height: 100vh;
+	color: #fff;
+	display: flex;
+	position: fixed;
+	z-index: 5;
+	top: 0;
+	.marquee--section {
+		background: $tertiarycolour;
+		margin: auto;
+		overflow: hidden;
+	}
+	&.scrollup {
+		z-index: 1;
+	}
+}
+
+.slideup {
+	background: #fff;
+	padding: 40px 0;
+	margin: 100vh 0 50vh;
+	position: relative;
+	z-index: 10;
+}
+
+.services {
+	.services--section {
+		display: flex;
+		flex-wrap: wrap;
+		div {
+			flex: 1 1 20%;
+		}
+		.services--2col {
+			flex: 1 1 50%;
+		}
+		.services--1col {
+			flex: 1 1 100%;
+		}
+
+		.services--1col ul {
+			display: flex;
+			justify-content: space-around;
+			list-style-type: none;
+			margin: 0;
+		}
+
+		.services--1col li {
+			padding: 20px 40px;
+		}
+	}
+}
+
+.work {
+	.work--section {
+		display: flex;
+		flex-wrap: wrap;
+		div {
+			flex: 1 1 50%;
+		}
+	}
+}
