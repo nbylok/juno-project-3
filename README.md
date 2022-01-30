@@ -1,2 +1,2 @@
 # nbylok.github.io
-Init
+Juno College Advanced Web Development project.
